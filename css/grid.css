@@ -1,0 +1,13 @@
+.casoshero {
+    display: grid;
+    grid-gap: auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+
+.casoshero .item1 {
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    background-image: url(pomelo.jpg);
+}
